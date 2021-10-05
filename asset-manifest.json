@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/PortfolioWeb/static/css/main.54bb7f7e.chunk.css",
+    "main.js": "/PortfolioWeb/static/js/main.97b75bf5.chunk.js",
+    "main.js.map": "/PortfolioWeb/static/js/main.97b75bf5.chunk.js.map",
+    "runtime-main.js": "/PortfolioWeb/static/js/runtime-main.f828803e.js",
+    "runtime-main.js.map": "/PortfolioWeb/static/js/runtime-main.f828803e.js.map",
+    "static/js/2.a77be430.chunk.js": "/PortfolioWeb/static/js/2.a77be430.chunk.js",
+    "static/js/2.a77be430.chunk.js.map": "/PortfolioWeb/static/js/2.a77be430.chunk.js.map",
+    "static/js/3.5546d748.chunk.js": "/PortfolioWeb/static/js/3.5546d748.chunk.js",
+    "static/js/3.5546d748.chunk.js.map": "/PortfolioWeb/static/js/3.5546d748.chunk.js.map",
+    "index.html": "/PortfolioWeb/index.html",
+    "static/css/main.54bb7f7e.chunk.css.map": "/PortfolioWeb/static/css/main.54bb7f7e.chunk.css.map",
+    "static/js/2.a77be430.chunk.js.LICENSE.txt": "/PortfolioWeb/static/js/2.a77be430.chunk.js.LICENSE.txt",
+    "static/media/github-square-brands-G.c76f75fc.svg": "/PortfolioWeb/static/media/github-square-brands-G.c76f75fc.svg",
+    "static/media/github-square-brands.c91c9504.svg": "/PortfolioWeb/static/media/github-square-brands.c91c9504.svg",
+    "static/media/instagram-square-brands-G.3e4388fb.svg": "/PortfolioWeb/static/media/instagram-square-brands-G.3e4388fb.svg",
+    "static/media/instagram-square-brands.66796d33.svg": "/PortfolioWeb/static/media/instagram-square-brands.66796d33.svg",
+    "static/media/linkedin-brands-G.48e95f90.svg": "/PortfolioWeb/static/media/linkedin-brands-G.48e95f90.svg",
+    "static/media/linkedin-brands.037f7ae9.svg": "/PortfolioWeb/static/media/linkedin-brands.037f7ae9.svg",
+    "static/media/me_02.542ba9b1.svg": "/PortfolioWeb/static/media/me_02.542ba9b1.svg",
+    "static/media/me_05.4f8b206b.svg": "/PortfolioWeb/static/media/me_05.4f8b206b.svg",
+    "static/media/mini_01.33a68e9a.png": "/PortfolioWeb/static/media/mini_01.33a68e9a.png",
+    "static/media/mini_02.c4a4da20.png": "/PortfolioWeb/static/media/mini_02.c4a4da20.png",
+    "static/media/mini_03.aec2b768.png": "/PortfolioWeb/static/media/mini_03.aec2b768.png",
+    "static/media/mini_04.40f7d34d.png": "/PortfolioWeb/static/media/mini_04.40f7d34d.png",
+    "static/media/project_01.cc3c02fd.png": "/PortfolioWeb/static/media/project_01.cc3c02fd.png",
+    "static/media/project_02.7193791b.png": "/PortfolioWeb/static/media/project_02.7193791b.png",
+    "static/media/project_03.74ea1651.png": "/PortfolioWeb/static/media/project_03.74ea1651.png",
+    "static/media/project_04.d86856dc.png": "/PortfolioWeb/static/media/project_04.d86856dc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f828803e.js",
+    "static/js/2.a77be430.chunk.js",
+    "static/css/main.54bb7f7e.chunk.css",
+    "static/js/main.97b75bf5.chunk.js"
+  ]
+}
