@@ -1,0 +1,62 @@
+.switchContainer {
+  width: 50px;
+  height: 30px;
+  border-radius: 20px;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  transition: all ease 0.5s;
+
+  div {
+    width: 26px;
+    height: 26px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 0.3s;
+  }
+}
+
+.darkSwitch {
+  justify-content: right;
+  background-color: #cccccc;
+
+  div {
+    background-color: #2a2c35;
+    color: #f5dc31;
+  }
+}
+
+.lightSwitch {
+  justify-content: left;
+  background-color: #cccccc;
+
+  div {
+    background-color: #ffffff;
+    color: #3a45f6;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .switchContainer{
+    top: 20px;
+    right: 20px;
+  }
+}
+
+@media screen and (min-width: 1220px){
+  .switchContainer{
+    right: 30px;
+  }
+}
+
+@media screen and (min-width: 1920px){
+  .switchContainer{
+    top: 35px;
+    right: 70px;
+  }
+}

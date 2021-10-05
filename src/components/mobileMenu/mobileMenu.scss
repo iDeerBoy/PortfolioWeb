@@ -1,0 +1,54 @@
+.menuMobile {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 99;
+  font-size: 16px;
+  transition: all ease 0.5s;
+    a {
+      text-decoration: none;
+    }
+}
+
+.darkNav {
+  background-color: #343641;
+  p {
+    color: #cccccc;
+    &:hover {
+      color: #f5dc31;
+      text-decoration-color: #f5dc31;
+    }
+  }
+}
+
+.lightNav {
+  background-color: #f4f4f4;
+  p {
+    color: #646464;
+    &:hover {
+      color: #3a45f6;
+      text-decoration-color: #3a45f6;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menuMobile {
+    height: 80px;
+    justify-content: center;
+    p {
+      padding: 0 20px;
+      font-size: 18px;
+    }
+  }
+}
+
+@media screen and (min-width: 1220px) {
+  .menuMobile {
+    display: none;
+  }
+}

@@ -1,0 +1,74 @@
+.menuDeskTop {
+  display: none;
+  transition: ease all 0.4s;
+}
+
+.darkNavDesk {
+  background-color: #343641;
+  p {
+    color: #cccccc;
+    &:hover {
+      color: #f5dc31;
+      text-decoration-color: #f5dc31;
+    }
+  }
+  a{
+      border-bottom: 1px solid #858585;
+  }
+}
+
+.lightNavDesk {
+  background-color: #f4f4f4;
+  p {
+    color: #646464;
+    &:hover {
+      color: #3a45f6;
+      text-decoration-color: #3a45f6;
+    }
+  }
+  a{
+      border-bottom: 1px solid #cccccc;
+  }
+}
+
+@media screen and (min-width: 1220px) {
+  .menuDeskTop {
+    display: block;
+    width: 160px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    a {
+      font-size: 18px;
+      text-align: center;
+      text-decoration: none;
+      padding: 15px 0;
+        &:first-child {
+            padding: 0 0 15px;
+        }
+        &:nth-child(4){
+            padding: 15px 0 0;
+            border: none;
+        }
+    }
+    .networks{
+        width: 100%;
+        position: absolute; 
+        bottom: 20px;
+        display: flex;
+        justify-content: space-evenly;
+
+          a{
+            padding: 0;
+            border: none;
+            img{
+              width: 20px;
+          }
+          }
+
+           
+    }
+  }
+}

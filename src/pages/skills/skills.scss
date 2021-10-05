@@ -1,0 +1,283 @@
+.skillsContainer {
+  width: 100%;
+  padding: 120px 20px 60px;
+
+  .titleSkills {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    h4 {
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+
+  .meContainer {
+    margin-bottom: 40px;
+
+    h2 {
+      font-family: "Signika", sans-serif;
+      font-size: 30px;
+      font-weight: 700;
+      display: inline-block;
+      margin-right: 8px;
+      margin-bottom: 20px;
+    }
+    h4 {
+      font-size: 14px;
+      font-weight: 300;
+      display: inline-block;
+    }
+    p {
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+
+  .skills {
+    h2 {
+      font-family: "Signika", sans-serif;
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    .devSkills {
+      padding: 0 10px 25px;
+
+      div {
+        margin-bottom: 20px;
+        p {
+          margin-left: 10px;
+          span {
+            font-weight: 700;
+          }
+        }
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .naturalSkills {
+      padding: 30px 20px 10px;
+      ul {
+        list-style: none;
+        li {
+          display: flex;
+          margin-bottom: 22px;
+          p {
+            margin-right: 10px;
+            span {
+              font-size: 12px;
+              font-weight: 300;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .daysContainer {
+    font-size: 12px;
+    font-weight: 900;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    margin-bottom: 15px;
+    div {
+      margin-left: 15px;
+    }
+  }
+}
+
+.darkTxt {
+  h4,
+  h1,
+  h2,
+  span {
+    color: #f5dc31;
+  }
+  p {
+    color: #ffffff;
+  }
+}
+
+.lightTxt {
+  h4,
+  h1,
+  h2,
+  span {
+    color: #3a45f6;
+  }
+  p {
+    color: #646464;
+  }
+}
+
+.darkDays {
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.lightDays {
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.darkBorder {
+  border-bottom: solid 1px #f5dc31;
+}
+
+.lightBorder {
+  border-bottom: solid 1px #3a45f6;
+}
+
+.iconDark {
+  color: #f5dc31;
+}
+
+.iconLight {
+  color: #3a45f6;
+}
+
+@media screen and (min-width: 768px) {
+  .skillsContainer {
+    padding: 0 10% 80px;
+    .titleSkills {
+      top: 25px;
+      left: 20px;
+      h4 {
+        font-size: 20px;
+      }
+    }
+
+    .meContainer {
+      margin-bottom: 75px;
+
+      h2 {
+        font-size: 55px;
+      }
+      h4 {
+        font-size: 20px;
+      }
+      p {
+        max-width: 500px;
+        font-size: 16px;
+        line-height: 22px;
+      }
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      h2 {
+        width: 100%;
+        font-size: 55px;
+      }
+      .darkBorder {
+        border: none;
+      }
+      .lightBorder {
+        border: none;
+      }
+
+      .devSkills {
+        padding: 0 25px 0;
+        margin-right: 80px;
+      }
+
+      .naturalSkills {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        ul {
+          li {
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+
+    .daysContainer {
+      transform: rotate(-90deg);
+      position: absolute;
+      right: -12%;
+      top: 50%;
+      font-size: 16px;
+    }
+  }
+}
+
+@media screen and (min-width: 1220px) {
+  .skillsContainer {
+    padding: 0 0 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .titleSkills {
+      top: auto;
+      left: auto;
+      bottom: 20px;
+      right: 30px;
+    }
+
+    .meContainer {
+      margin-bottom: 50px;
+      p {
+        max-width: 530px;
+      }
+    }
+
+    .skills {
+      .devSkills {
+        width: 500px;
+        padding: 0;
+        margin-right: 35px;
+        display: flex;
+        flex-wrap: wrap;
+        div {
+          width: 50%;
+          padding-right: 15px;
+        }
+      }
+    }
+
+    .daysContainer {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      right: 30px;
+      top: 45%;
+      transform: rotate(0deg);
+      div {
+        margin: 0;
+        &:first-child {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .skillsContainer {
+    padding-left: 200px;
+    .titleSkills {
+      bottom: 35px;
+      right: 70px;
+      h4 {
+        font-size: 30px;
+      }
+    }
+    .meContainer{
+      p{
+        font-size: 18px;
+      }
+    }
+
+    .daysContainer{
+      right: 70px;
+    }
+  }
+}

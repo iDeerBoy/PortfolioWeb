@@ -1,0 +1,174 @@
+.itsMeContainer {
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px 10px 60px;
+  display: flex;
+  align-items: center;
+
+  .titleContainer {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    h4 {
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+
+  .headerContainer {
+    width: 100%;
+    padding: 0 0 0 20px;
+
+    .imgContainer {
+      width: 160px;
+      margin-bottom: 30px;
+    }
+
+    .txtContainer {
+      h2 {
+        font-size: 30px;
+        font-weight: 300;
+      }
+      h1 {
+        font-family: "Signika", sans-serif;
+        font-size: 60px;
+        font-weight: 400;
+      }
+      p {
+        font-size: 16px;
+        font-weight: 300;
+      }
+      span {
+        animation: spanAnimation 2s infinite;
+      }
+    }
+  }
+}
+
+.darkHomeTxt {
+  h4,
+  h1,
+  span {
+    color: #f5dc31;
+  }
+  p,
+  h2 {
+    color: #ffffff;
+  }
+}
+
+.lightHomeTxt {
+  h4,
+  h1,
+  span {
+    color: #3a45f6;
+  }
+  p,
+  h2 {
+    color: #646464;
+  }
+}
+
+@keyframes spanAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .itsMeContainer {
+    padding: 20px 60px 80px;
+
+    .titleContainer {
+      top: 25px;
+      left: 20px;
+
+      h4 {
+        font-size: 20px;
+      }
+    }
+    .headerContainer {
+      display: flex;
+      justify-content: center;
+
+      .imgContainer {
+        margin-right: 25px;
+        margin-bottom: 0;
+      }
+
+      .txtContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h2 {
+          margin-bottom: 5px;
+        }
+        h1 {
+          font-size: 85px;
+          margin-bottom: 5px;
+        }
+        p {
+          font-size: 20px;
+          max-width: 380px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1220px) {
+  .itsMeContainer {
+    padding: 0;
+
+    .titleContainer {
+      top: auto;
+      left: auto;
+      bottom: 20px;
+      right: 30px;
+    }
+
+    .headerContainer {
+      padding: 0;
+
+      .imgContainer {
+        margin-right: 30px;
+      }
+      .txtContainer {
+        p {
+          max-width: 625px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .itsMeContainer {
+    .titleContainer {
+      bottom: 35px;
+      right: 70px;
+        h4{
+          font-size: 30px;
+        }
+    }
+    .headerContainer{
+      justify-content: flex-start;
+      margin-left: 175px;
+        .imgContainer{
+          width: 180px;
+        }
+        .txtContainer{
+          p{
+            font-size: 25px;
+          }
+        }
+    }
+  }
+}
