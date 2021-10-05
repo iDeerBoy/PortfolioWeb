@@ -1,6 +1,6 @@
 import "./App.scss";
 import React, { useContext } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as HashRouter, Switch, Route } from "react-router-dom";
 import { ContextApp } from "./context/contextApp";
 import SwitchDark from "./components/switchDark/switchDark";
 import ItsMe from "./pages/itsMe/itsMe";
@@ -17,16 +17,16 @@ function App() {
   return (
     <div className={`App ${darkMode}`}>
       <SwitchDark />
-      <Router>
+      <HashRouter>
       <DeskTopMenu />
         <Switch>
-          <Route exact path='/' component={ItsMe}/>
-          <Route exact path='/projects' component={Projects}/>
-          <Route exact path='/skills' component={Skills}/>
-          <Route exact path='/contact' component={Contact}/>
+          <Route exact path='/PortfolioWeb/' component={ItsMe}/>
+          <Route exact path='/PortfolioWeb/projects' component={Projects}/>
+          <Route exact path='/PortfolioWeb/skills' component={Skills}/>
+          <Route exact path='/PortfolioWeb/contact' component={Contact}/>
         </Switch>
         <MobileMenu />
-      </Router>
+      </HashRouter>
     </div>
   );
 }

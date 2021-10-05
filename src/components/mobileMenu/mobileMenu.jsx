@@ -9,16 +9,16 @@ export default function MobileMenu() {
 
   return (
     <nav className={`menuMobile ${darkModeNav}`}>
-      <Link to="/">
+      <Link to="/PortfolioWeb/">
         <p>Its me</p>
       </Link>
-      <Link to="/projects">
+      <Link to="/PortfolioWeb/projects">
         <p>Projects</p>
       </Link>
-      <Link to="/skills">
+      <Link to="/PortfolioWeb/skills">
         <p>Skils</p>
       </Link>
-      <Link to="/contact">
+      <Link to="/PortfolioWeb/contact">
         <p>Contact</p>
       </Link>
     </nav>
