@@ -3,8 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
-    &::-webkit-scrollbar {
-      display: none;
+  &::-webkit-scrollbar {
+    display: none;
   }
 }
 
@@ -18,10 +18,11 @@
   align-items: center;
 }
 
-.darkApp {
-  background-color: #2a2c35;
-}
-
-.lightApp {
-  background-color: #ffffff;
+@media screen and (max-width: 1219px) {
+  .darkApp {
+    background-color: #2A2C35;
+  }
+  .lightApp{
+    background-color: #ffffff;
+  }  
 }

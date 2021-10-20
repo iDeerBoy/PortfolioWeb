@@ -11,8 +11,8 @@ export default function SwitchDark (){
     const darkModeSwitch = darkState ? 'darkSwitch' : 'lightSwitch'
 
     return (
-        <div className={`switchContainer ${darkModeSwitch}`}>
-            <div onClick={switchDark} >
+        <div className={`switchContainer ${darkModeSwitch}`} onClick={switchDark} >
+            <div>
                 <FontAwesomeIcon icon={SwitchIcon}/>
             </div>
         </div>

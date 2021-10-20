@@ -9,6 +9,7 @@ import Skills from "./pages/skills/skills";
 import Contact from "./pages/contact/contact";
 import MobileMenu from "./components/mobileMenu/mobileMenu";
 import DeskTopMenu from "./components/deskTopMenu/deskTopMenu";
+import ParticlesBG from "./components/particles/particles";
 
 function App() {
   const { darkState } = useContext(ContextApp);
@@ -16,7 +17,8 @@ function App() {
 
   return (
     <div className={`App ${darkMode}`}>
-      <SwitchDark />
+      <SwitchDark />      
+      <ParticlesBG />
       <HashRouter>
       <DeskTopMenu />
         <Switch>

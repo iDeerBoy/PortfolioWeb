@@ -1,0 +1,19 @@
+
+  .particles {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -10;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    transition: all .4s ease;
+  }
+
+  .darkPaticles{
+    background-color: #2a2c35;
+  }
+
+  .lightParticles{
+    background-color: #ffffff;
+  }
