@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/PortfolioWeb/static/css/main.2389b460.chunk.css",
-    "main.js": "/PortfolioWeb/static/js/main.50332c34.chunk.js",
-    "main.js.map": "/PortfolioWeb/static/js/main.50332c34.chunk.js.map",
-    "runtime-main.js": "/PortfolioWeb/static/js/runtime-main.cbb35562.js",
-    "runtime-main.js.map": "/PortfolioWeb/static/js/runtime-main.cbb35562.js.map",
-    "static/js/2.f5b64fb4.chunk.js": "/PortfolioWeb/static/js/2.f5b64fb4.chunk.js",
-    "static/js/2.f5b64fb4.chunk.js.map": "/PortfolioWeb/static/js/2.f5b64fb4.chunk.js.map",
-    "static/js/3.a5d5dc37.chunk.js": "/PortfolioWeb/static/js/3.a5d5dc37.chunk.js",
-    "static/js/3.a5d5dc37.chunk.js.map": "/PortfolioWeb/static/js/3.a5d5dc37.chunk.js.map",
+    "main.css": "/PortfolioWeb/static/css/main.9fd43328.chunk.css",
+    "main.js": "/PortfolioWeb/static/js/main.91359401.chunk.js",
+    "main.js.map": "/PortfolioWeb/static/js/main.91359401.chunk.js.map",
+    "runtime-main.js": "/PortfolioWeb/static/js/runtime-main.4ee0be90.js",
+    "runtime-main.js.map": "/PortfolioWeb/static/js/runtime-main.4ee0be90.js.map",
+    "static/js/2.08d604e0.chunk.js": "/PortfolioWeb/static/js/2.08d604e0.chunk.js",
+    "static/js/2.08d604e0.chunk.js.map": "/PortfolioWeb/static/js/2.08d604e0.chunk.js.map",
+    "static/js/3.543e06ec.chunk.js": "/PortfolioWeb/static/js/3.543e06ec.chunk.js",
+    "static/js/3.543e06ec.chunk.js.map": "/PortfolioWeb/static/js/3.543e06ec.chunk.js.map",
     "index.html": "/PortfolioWeb/index.html",
-    "static/css/main.2389b460.chunk.css.map": "/PortfolioWeb/static/css/main.2389b460.chunk.css.map",
-    "static/js/2.f5b64fb4.chunk.js.LICENSE.txt": "/PortfolioWeb/static/js/2.f5b64fb4.chunk.js.LICENSE.txt",
+    "static/css/main.9fd43328.chunk.css.map": "/PortfolioWeb/static/css/main.9fd43328.chunk.css.map",
+    "static/js/2.08d604e0.chunk.js.LICENSE.txt": "/PortfolioWeb/static/js/2.08d604e0.chunk.js.LICENSE.txt",
     "static/media/github-square-brands-G.c76f75fc.svg": "/PortfolioWeb/static/media/github-square-brands-G.c76f75fc.svg",
     "static/media/github-square-brands.c91c9504.svg": "/PortfolioWeb/static/media/github-square-brands.c91c9504.svg",
     "static/media/instagram-square-brands-G.3e4388fb.svg": "/PortfolioWeb/static/media/instagram-square-brands-G.3e4388fb.svg",
@@ -23,16 +23,12 @@
     "static/media/mini_01.33a68e9a.png": "/PortfolioWeb/static/media/mini_01.33a68e9a.png",
     "static/media/mini_02.c4a4da20.png": "/PortfolioWeb/static/media/mini_02.c4a4da20.png",
     "static/media/mini_03.aec2b768.png": "/PortfolioWeb/static/media/mini_03.aec2b768.png",
-    "static/media/mini_04.40f7d34d.png": "/PortfolioWeb/static/media/mini_04.40f7d34d.png",
-    "static/media/project_01.cc3c02fd.png": "/PortfolioWeb/static/media/project_01.cc3c02fd.png",
-    "static/media/project_02.7193791b.png": "/PortfolioWeb/static/media/project_02.7193791b.png",
-    "static/media/project_03.74ea1651.png": "/PortfolioWeb/static/media/project_03.74ea1651.png",
-    "static/media/project_04.d86856dc.png": "/PortfolioWeb/static/media/project_04.d86856dc.png"
+    "static/media/mini_04.40f7d34d.png": "/PortfolioWeb/static/media/mini_04.40f7d34d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.cbb35562.js",
-    "static/js/2.f5b64fb4.chunk.js",
-    "static/css/main.2389b460.chunk.css",
-    "static/js/main.50332c34.chunk.js"
+    "static/js/runtime-main.4ee0be90.js",
+    "static/js/2.08d604e0.chunk.js",
+    "static/css/main.9fd43328.chunk.css",
+    "static/js/main.91359401.chunk.js"
   ]
 }
